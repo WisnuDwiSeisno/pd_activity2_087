@@ -29,4 +29,17 @@ int main() {
         cout << "4. Exit" << endl;
         cout << "\nPilihan 1/2/3/4 : " << endl;
         cin >> pilihan;
+
+        switch (pilihan)
+        {
+        case 1:
+            cout << "Masukan Panjang = ";
+            cin >> panjang;
+            cout << "Masukan Lebar = ";
+            cin >> lebar;
+            cout << "\nLuas Persegi Panjang = " << LuasPersegipanjang(panjang, lebar);
+            break;
+        }
+    }
+    // } while (pilihan != 4);
 }
