@@ -44,6 +44,13 @@ int main() {
             cin >> jejari;
             cout << "\nLuas Lingkaran = " << LuasLingkarang(jejari);
             break;
+        case 3:
+            cout << "Masukan Alas = ";
+            cin >> alas;
+            cout << "Masukan Tinggi = ";
+            cin >> tinggi;
+            cout << "\nLuas Segitiga = " << LuasSegitiga(alas, tinggi);
+            break;
         }
     }
     // } while (pilihan != 4);
