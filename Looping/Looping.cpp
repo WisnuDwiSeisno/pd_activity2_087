@@ -51,6 +51,12 @@ int main() {
             cin >> tinggi;
             cout << "\nLuas Segitiga = " << LuasSegitiga(alas, tinggi);
             break;
+        case 4:
+            menu = false;
+            break;
+        default:
+            cout << "Pilihan Salah !";
+            break;
         }
     }
     // } while (pilihan != 4);
